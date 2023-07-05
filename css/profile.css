@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', 'sans-serif';
+}
+
+body {
+    background: linear-gradient(45deg, #ffffff, #ffffff);
+}
+
+.header-section {
+    display: flex;
+    color: #fff;
+    padding: 10px;
+    background: #010217;
+    height: 70px;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.head-left {
+    width: 40%;
+    text-align: center;
+}
+
+.head-left h1 {
+    font-size: 40px;
+}
+
+.head-right {
+    width: 60%; 
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.head-right  a{
+    text-decoration: none;
+    color: #fff;
+    cursor: pointer;
+}
+
+.article-section {
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 70px;
+
+}
+
+.art-left {
+    width: 40%;
+    text-align: center;
+}
+
+.myImage {
+    border-radius: 50%;
+    border: 0;
+    outline: 0;
+}
+
+.art-right {
+    width: 60%; 
+}
+.art-right h2 {
+    margin: 0 0 20px 0;
+    padding: 5px;
+    color: #010217;
+}
+
+.some-text {
+    color: #010217;
+}
+
+.text-2 {
+    color: #010217;
+    margin-top: 30px;
+}
+
+.sub-container {
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 70px;
+}
+
+.subSectio-img {
+    border-radius: 50%;
+    outline: 0;
+    border: 0;
+}
+
+.footer-section {
+    margin-top: 70px;
+    padding: 20px;
+    background: #010217;
+}
+
+.footer-icon-section {
+    display: flex;
+    width: 200px;
+    margin: auto;
+    align-items: center;
+    justify-content: space-evenly
+}
+
+.footer-icon-section a {
+    text-decoration: none;
+    color: #fff;
+    cursor: pointer;
+    padding: 10px;
+}
+
+.footer-text-section {
+    color: #fff;
+    padding: 10px;
+}
+
+.footer-copyright-section {
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+.footer-author-section {
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+/*************/
+
+.resume-outline {
+    border: #010217 1px solid;
+    margin: 70px 10px 10px 10px;
+    padding: 10px;
+}
+
+.resume-outline ul li {
+    list-style: none;
+}
+
+/**************/
+
+.my-card {
+    width: 90%;
+    max-width: 400px;
+    box-sizing: border-box;
+    border-radius: 20px;
+    box-shadow:0 0 30px #2b2f7a;
+    margin: auto;
+    text-align: center;
+    padding: 20px;
+    margin-top: 70px;
+}
+
